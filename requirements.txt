@@ -5,3 +5,5 @@ langchain-huggingface
 faiss-cpu
 numpy
 python-dotenv
+python-docx
+pypdf2
