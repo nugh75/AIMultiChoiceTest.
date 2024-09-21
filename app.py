@@ -108,6 +108,7 @@ def generate_questions(text_segment, llm):
     
     - Le opzioni di risposta (inclusi i distrattori) devono essere formulate in modo plausibile, evitando banalità. I distrattori devono essere basati su potenziali errori concettuali che uno studente avanzato potrebbe commettere, ma che portino a riflettere sui concetti fondamentali del testo.
     - Non utilizzare frasi come "il testo non menziona", ma fornisci una spiegazione plausibile legata al contesto dell'Unità didattica.
+    - Usa quando necessario frasi del tipo: "è in parte giusta, ma.."
     - La spiegazione della risposta corretta deve essere esauriente, chiara e direttamente collegata al concetto chiave trattato nell'Unità didattica.
     - Mantieni un linguaggio formale e preciso, ma chiaro, adeguato per studenti di livello avanzato, come quelli di un master. Evita tecnicismi eccessivi, a meno che non siano essenziali per la comprensione del concetto trattato.
     """
