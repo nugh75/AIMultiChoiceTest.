@@ -96,7 +96,7 @@ def split_text_by_delimiter(text, delimiter="+++++"):
 # Funzione per generare domande a scelta multipla usando il modello OpenAI
 def generate_questions(text_segment, llm):
     prompt_template = """
-    Genera una domanda a scelta multipla basata sul seguente testo:
+    Genera due domande a scelta multipla basata sul seguente testo:
 
     {text}
 
@@ -139,7 +139,7 @@ def write_questions_to_docx(questions, output_filename):
             continue
         
         # Scriviamo il contenuto intero di ogni segmento senza alcuna modifica
-        doc.add_paragraph(f"{i+1}. -------------------------")
+        doc.add_paragraph(f"{i+1}. ")
         doc.add_paragraph(question_data)
         doc.add_paragraph("\n")
     
